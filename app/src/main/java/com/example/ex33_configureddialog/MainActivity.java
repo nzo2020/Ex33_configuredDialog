@@ -74,7 +74,6 @@ public class MainActivity extends AppCompatActivity {
         dlg.show();
     }
 
-
     /**
      * Displays a dialog allowing the user to select multiple colors, modifying the background color.
      *
