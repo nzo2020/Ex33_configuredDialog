@@ -58,7 +58,6 @@ public class MainActivity extends AppCompatActivity {
      *
      * @param v The view triggering the dialog.
      */
-
     public void onColorSelect(View v) {
         rgbVals = new int[]{0, 0, 0};
 
@@ -74,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog dlg = dlgBuilder.create();
         dlg.show();
     }
+
 
     /**
      * Displays a dialog allowing the user to select multiple colors, modifying the background color.
