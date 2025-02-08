@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
      *
      * @param v The view triggering the dialog.
      */
+
     public void onColorSelect(View v) {
         rgbVals = new int[]{0, 0, 0};
 
